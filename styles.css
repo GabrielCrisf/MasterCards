@@ -1,0 +1,93 @@
+#GameBoard {
+    width: 100vw;  /* Ajusta a largura para 100% da tela do dispositivo */
+    height: 100vh; /* Ajusta a altura para 100% da tela do dispositivo */
+    max-width: 1080px; /* Limita a largura máxima para 1080px */
+    max-height: 1600px; /* Limita a altura máxima para 1920px */
+    margin: 0 auto; /* Centraliza horizontalmente em telas maiores */
+    background-color: aquamarine;
+    border: #2702df solid 5px;
+    
+}
+
+#GridCont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsivo, com largura mínima de 200px */
+    gap: 20px; /* Espaço entre os blocos */
+    padding: 20px;
+    margin-top: 70px;
+    
+}
+
+
+
+#Title
+{
+    width: 100vw;  /* Ajusta a largura para 100% da tela do dispositivo */
+    height: 100vh; /* Ajusta a altura para 100% da tela do dispositivo */
+    max-width: 1080px; /* Limita a largura máxima para 1080px */
+    max-height: 200px; /* Limita a altura máxima para 1920px */
+    margin: 0 auto; /* Centraliza horizontalmente em telas maiores */
+    background-color: rgb(255, 127, 127);
+    font-weight: bolder;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans';
+
+    text-shadow: 
+    -1px -1px 0 #FFFFFF, 
+     1px -1px 0 #FFFFFF,
+    -1px  1px 0 #FFFFFF, 
+     1px  1px 0 #FFFFFF;
+    
+    border-bottom: 5px solid #120b2d;
+
+}
+
+
+/* Bloco com cantos ligeiramente arredondados e fundo laranja-rosa */
+.Card {
+    background-color: #FFDAC1; /* Laranja-rosa claro */
+    border-radius: 10px; /* Cantos ligeiramente arredondados */
+    border: #f06203 solid 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destaque */
+    text-align: center; /* Centraliza o texto */
+    transition: transform 0.3s; /* Animação ao passar o mouse */
+    height: 200px;
+     /* Limita a largura máxima para 1080px */
+    max-height: 180; /* Limita a altura máxima para 1920px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Efeito hover para interação */
+ .Card:hover {
+    background-color: #f6863b; 
+}
+
+
+
+.Circle{
+    display: flex;
+    border: #4cc260 solid 4px;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vw;
+    max-width: 150px; /* Limita a largura máxima para 1080px */
+    max-height: 150px; /* Limita a altura máxima para 1920px */
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.Circle:hover {
+    transform: scale(1.20); /* Aumenta ligeiramente o bloco ao passar o mouse */
+    cursor: pointer;
+}

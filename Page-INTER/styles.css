@@ -1,0 +1,37 @@
+#GameBoard {
+    width: 100vw;  /* Ajusta a largura para 100% da tela do dispositivo */
+    height: 100vh; /* Ajusta a altura para 100% da tela do dispositivo */
+    max-width: 1080px; /* Limita a largura máxima para 1080px */
+    max-height: 1600px; /* Limita a altura máxima para 1920px */
+    margin: 0 auto; /* Centraliza horizontalmente em telas maiores */
+    background-color: aquamarine;
+    border: #2702df solid 5px;
+    
+}
+
+#Title
+{
+    width: 100vw;  /* Ajusta a largura para 100% da tela do dispositivo */
+    height: 100vh; /* Ajusta a altura para 100% da tela do dispositivo */
+    max-width: 1080px; /* Limita a largura máxima para 1080px */
+    max-height: 200px; /* Limita a altura máxima para 1920px */
+    margin: 0 auto; /* Centraliza horizontalmente em telas maiores */
+    background-color: rgb(255, 127, 127);
+    font-weight: bolder;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans';
+
+    text-shadow: 
+    -1px -1px 0 #FFFFFF, 
+     1px -1px 0 #FFFFFF,
+    -1px  1px 0 #FFFFFF, 
+     1px  1px 0 #FFFFFF;
+    
+    border-bottom: 5px solid #120b2d;
+
+}
+
