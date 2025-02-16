@@ -2,14 +2,14 @@ export function espa(){
 
     const Espa ={
         "1": {
-            "MAO": "(REAÇÃO): 'Quando um CardFigura ativar seu efeito no CAMPO; “Envie este card da sua MÃO para o LIXO; “Negue o efeito.",
-            "CAMPO": "N/A",
+            "MAO": `(REAÇÃO): 'Quando um CardFigura ativar seu efeito no CAMPO: 'Envie este card da sua MÃO para o LIXO; “Negue o efeito.`,
+            "CAMPO": `(AÇÃO): “Descarte todos os cards da mão dos dois jogadores, e depois, “Compre 2 cards`,
             "DESCT": `(REAÇÃO): 'Quando este card for “Descartado: "Descarte 2 cards do topo do DECK do seu oponente para o LIXO.`,
             "TIPO": "CardNumero"
         },
         "2": {
-            "MAO": "Quando um descarta for declarado, envie este card para o [LIXO]; half o valor do “Descarte",
-            "CAMPO": `(AÇÃO): 'Escolha 1 card no LIXO; “Recupere-o para sua MÃO.`,
+            "MAO": `(REAÇÃO): 'Quando um efeito/ataque que envolva descartar ou devolver (inclui “Q” contra ataques) cards for ativado/declarado: 'Envie este card para o [LIXO]; “Diminua pela metade (inteiro arredondado p/ baixo) o valor de Descarte/Devolução`,
+            "CAMPO": `(AÇÃO): “Recupere 1 card do LIXO para mão.`,
             "DESCT": `(REAÇÃO): 'Quando este card for “Descartado: “Recupere 1 card do LIXO para a MÃO.`,
             "TIPO": "CardNumero"
         },
@@ -38,7 +38,7 @@ export function espa(){
             "TIPO": ``
         },
         "7": {
-           "MAO": `(REAÇÃO): 'Se seu oponente te fizer descartar sete cards enquanto você tiver um card “7” na MÃO, 'Revele e 'Envie quantos cards “7” possíveis da sua MÃO e ative apenas um dos efeitos:
+            "MAO": `(REAÇÃO): 'Se seu oponente te fizer descartar 7 cards (ou múltiplos de 7 cards) enquanto você tiver um card “7” na MÃO: 'Revele e 'Envie quantos cards “7” possíveis da sua MÃO; e ative apenas um dos efeitos:
                 * “Compre 2 cards para cada card “7” revelado.
                 * “Descarte 7 cards do topo do DECK do seu oponente para cada card “7” revelado.`,
             "CAMPO": ``,
@@ -46,19 +46,19 @@ export function espa(){
             "TIPO": ``
         },
         "8": {
-            "MAO": `Uma vez por turno se você tiver dois do mesmo card “10”, “9“ ou “8” na sua MÃO: 'Revele dois destes cards iguais, 'Envie um deles para o LIXO e depois “Compre 2 cards. Você só pode ativar este efeito se tiver ou controlar a mesma quantidade de cards ou menos que seu oponente.`,
+            "MAO": `(AÇÃO): Uma vez por turno se você tiver dois do mesmo card “10”, “9“ ou “8” na sua MÃO: 'Revele dois destes cards iguais, 'Envie um deles para o LIXO; “Compre 2 cards. Você só pode ativar este efeito se tiver ou controlar a mesma quantidade de cards ou menos que seu oponente.`,
             "CAMPO": ``,
             "DESCT": ``,
             "TIPO": ``
         },
         "9": {
-            "MAO": `Uma vez por turno se você tiver dois do mesmo card “10”, “9“ ou “8” na sua MÃO: 'Revele dois destes cards iguais, 'Envie um deles para o LIXO e depois “Compre 2 cards. Você só pode ativar este efeito se tiver ou controlar a mesma quantidade de cards ou menos que seu oponente.`,
+            "MAO": `(AÇÃO): Uma vez por turno se você tiver dois do mesmo card “10”, “9“ ou “8” na sua MÃO: 'Revele dois destes cards iguais, 'Envie um deles para o LIXO; “Compre 2 cards. Você só pode ativar este efeito se tiver ou controlar a mesma quantidade de cards ou menos que seu oponente.`,
             "CAMPO": ``,
             "DESCT": ``,
             "TIPO": ``
         },
         "10": {
-            "MAO": `Uma vez por turno se você tiver dois do mesmo card “10”, “9“ ou “8” na sua MÃO: 'Revele dois destes cards iguais, 'Envie um deles para o LIXO e depois “Compre 2 cards. Você só pode ativar este efeito se tiver ou controlar a mesma quantidade de cards ou menos que seu oponente.`,
+            "MAO": `(AÇÃO): Uma vez por turno se você tiver dois do mesmo card “10”, “9“ ou “8” na sua MÃO: 'Revele dois destes cards iguais, 'Envie um deles para o LIXO; “Compre 2 cards. Você só pode ativar este efeito se tiver ou controlar a mesma quantidade de cards ou menos que seu oponente.`,
             "CAMPO": ``,
             "DESCT": ``,
             "TIPO": ``
